@@ -1,0 +1,27 @@
+{
+  "name": "open-to-get-random-image",
+  "version": "1.0.0",
+  "description": "a simple server to let a randomly chosen image show up on the page",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleoold/open-to-get-random-image.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "cleoold",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/cleoold/open-to-get-random-image/issues"
+  },
+  "homepage": "https://github.com/cleoold/open-to-get-random-image#readme",
+  "dependencies": {
+    "@types/node": "^13.1.6",
+    "command-line-args": "^5.1.1",
+    "express": "^4.17.1",
+    "typescript": "^3.7.4"
+  }
+}
