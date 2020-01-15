@@ -126,6 +126,8 @@ import * as express from 'express';
 
 const app = express();
 
+app.disable('x-powered-by');
+
 if (mode == 'folder')
     app.use(mockServePath, express.static(path.join(__dirname, servePath)));
 // ^ if required to use other kind of static resources add other entries similar
