@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/cleoold/open-to-get-random-image#readme",
   "dependencies": {
-    "@types/node": "^16.0.1",
+    "@types/node": "^18.11.18",
     "command-line-args": "^5.1.1",
     "express": "^4.17.1",
     "typescript": "^4.3.5"
